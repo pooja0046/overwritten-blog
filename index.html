@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workstation Logs</title>
+    <link rel="stylesheet" href="css/styles.css">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<body>
+
+<!-- START SCREEN (OUTSIDE) -->
+<div id="start-screen">
+    <div class="start-content">
+        <h1>WORKSTATION_03</h1>
+        <p>ACCESS RESTRICTED</p>
+        <button onclick="enterSystem()">ENTER</button>
+    </div>
+</div>
+
+<div class="monitor-frame">
+
+    <div class="screen">
+
+        <div class="terminal-header">
+            <span>WORKSTATION_03</span>
+            <span class="status">STATUS: ACTIVE</span>
+        </div>
+
+        <div class="system">
+
+            <div class="file-list">
+                <div class="file" onclick="openFile('entry1')">ENTRY_01</div>
+                <div class="file" onclick="openFile('report')">INCIDENT_REPORT</div>
+                <div class="file" onclick="openFile('final')">FINAL_NOTE</div>
+            </div>
+
+            <div class="file-viewer" id="file-viewer">
+                <p>Select a file...</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>

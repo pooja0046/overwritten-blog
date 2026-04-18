@@ -1,0 +1,201 @@
+/* ================= GLOBAL ================= */
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/* ================= MONITOR FRAME ================= */
+
+.monitor-frame {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    background-image: url("../assets/images/scene2.png"); /* 👈 your scene 2 style */
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monitor-frame::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(255,255,255,0.03),
+        rgba(255,255,255,0.03) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+
+    z-index: 5;
+}
+
+
+
+
+/* ================= SCREEN ================= */
+
+.screen {
+    width: 70%;
+    height: 75%;
+
+    background-color: rgba(0,0,0,0.85);
+    border: 2px solid #5C4A3D;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+/* ================= HEADER ================= */
+
+.terminal-header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 15px;
+
+    border-bottom: 2px solid #5C4A3D;
+
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+
+    color: #FCFBD8;
+}
+
+.status {
+    color: #3B4B3B;
+}
+
+
+/* ================= START SCREEN ================= */
+
+#start-screen {
+    position: absolute; /* 👈 IMPORTANT CHANGE */
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+
+.start-content {
+    text-align: center;
+    color: #FCFBD8;
+
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.start-content h1 {
+    text-shadow: 0 0 10px rgba(154,44,44,0.5);
+}
+
+.start-content p {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-bottom: 30px;
+    color: #9A2C2C;
+}
+
+.start-content button {
+    font-family: 'Press Start 2P', monospace;
+    padding: 15px 25px;
+
+    background-color: #1C1C1C;
+    border: 3px solid #5C4A3D;
+    color: #FCFBD8;
+
+    cursor: pointer;
+}
+
+.start-content button:hover {
+    background-color: #9A2C2C;
+}
+
+
+/* ================= CONTENT ================= */
+
+.system {
+    display: flex;
+    height: 100%;
+}
+
+/* FILE LIST */
+.file-list {
+    width: 30%;
+    border-right: 2px solid #5C4A3D;
+    padding: 10px;
+
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+}
+
+.file {
+    padding: 10px;
+    cursor: pointer;
+    color: #FCFBD8;
+}
+
+.file:hover {
+    background-color: #9A2C2C;
+}
+
+/* VIEWER */
+.file-viewer {
+    width: 70%;
+    padding: 20px;
+
+    font-family: 'Pixelify Sans', sans-serif;
+    overflow-y: auto;
+}
+
+/* ================= SCROLLBAR ================= */
+
+.blog-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.blog-content::-webkit-scrollbar-thumb {
+    background: #5C4A3D;
+}
+
+/* ================= SUBTLE CORRUPTION ================= */
+
+.corrupt {
+    color: #9A2C2C;
+}
+
+/* OPTIONAL: flicker effect */
+.corrupt:hover {
+    animation: flicker 0.2s infinite;
+}
+
+@keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+
