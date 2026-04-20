@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Workstation Logs</title>
+    <title>OVERWRITTN_BLOG.EXE</title>
     <link rel="stylesheet" href="css/styles.css">
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -11,40 +11,65 @@
 
 <body>
 
-<!-- START SCREEN (OUTSIDE) -->
-<div id="start-screen">
-    <div class="start-content">
-        <h1>WORKSTATION_03</h1>
-        <p>ACCESS RESTRICTED</p>
-        <button onclick="enterSystem()">ENTER</button>
-    </div>
-</div>
+
 
 <div class="monitor-frame">
 
     <div class="screen">
 
-        <div class="terminal-header">
-            <span>WORKSTATION_03</span>
-            <span class="status">STATUS: ACTIVE</span>
-        </div>
+        <!-- SCANLINES (ONLY INSIDE SCREEN) -->
+        <div class="scanlines"></div>
 
-        <div class="system">
+        <!-- START SCREEN -->
+        <div id="start-screen">
 
-            <div class="file-list">
-                <div class="file" onclick="openFile('entry1')">ENTRY_01</div>
-                <div class="file" onclick="openFile('report')">INCIDENT_REPORT</div>
-                <div class="file" onclick="openFile('final')">FINAL_NOTE</div>
+            <div class="start-content">
+                <h1>OVERWRITTEN_BLOG</h1>
+                <p>ACCESS RESTRICTED</p>
+
+                <button onclick="enterSystem()">ENTER</button>
             </div>
 
-            <div class="file-viewer" id="file-viewer">
-                <p>Select a file...</p>
+        </div>
+
+        <!-- LOADING SCREEN -->
+        <div id="loading-screen">
+            <p id="loading-text">INITIALISING...</p>
+        </div>
+
+        <!-- MAIN SYSTEM -->
+        <div id="main-system">
+
+            <div class="terminal-header">
+                <span>OVERWRITTEN_WORKSTATION_</span>
+                <span class="status">STATUS: ACTIVE</span>
+            </div>
+
+            <div class="system">
+
+                <div class="file-list">
+<div class="file" onclick="openFile('t1')">T1_VISUAL_RESEARCH</div>
+<div class="file" onclick="openFile('t2')">T2_STATEMENT</div>
+<div class="file" onclick="openFile('t3')">T3_GEOEPISTEMOLOGY</div>
+<div class="file" onclick="openFile('t4')">T4_AI_BIAS</div>
+<div class="file" onclick="openFile('t5')">T5_DATA_PORTRAITS</div>
+<div class="file" onclick="openFile('t6')">T6_PLANNING</div>
+<div class="file" onclick="openFile('t7')">T7_AUDIO</div>
+<div class="file" onclick="openFile('t8')">T8_VISUALS</div>
+<div class="file" onclick="openFile('t9')">T9_PROTOTYPES</div>
+<div class="file" onclick="openFile('t10')">T10_REVIEW</div>
+<div class="file" onclick="openFile('t11')">T11_FINAL</div>
+                </div>
+
+                <div class="file-viewer" id="file-viewer">
+                    <p>Select a file...</p>
+                </div>
+
             </div>
 
         </div>
 
     </div>
-
 </div>
 
 

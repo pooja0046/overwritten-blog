@@ -21,27 +21,6 @@ body {
     align-items: center;
 }
 
-.monitor-frame::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    pointer-events: none;
-
-    background: repeating-linear-gradient(
-        0deg,
-        rgba(255,255,255,0.03),
-        rgba(255,255,255,0.03) 1px,
-        transparent 1px,
-        transparent 2px
-    );
-
-    z-index: 5;
-}
 
 
 
@@ -55,12 +34,46 @@ body {
     background-color: rgba(0,0,0,0.85);
     border: 2px solid #5C4A3D;
 
+    position: relative; /* 🔥 IMPORTANT */
+
     display: flex;
     flex-direction: column;
 
     overflow: hidden;
+
+        box-shadow: 
+        inset 0 0 40px rgba(0,0,0,0.9),
+        0 0 20px rgba(0,0,0,0.5);
 }
 
+
+/* ================= SCANLINES (LIKE GAME) ================= */
+
+.scanlines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(255,255,255,0.03),
+        rgba(255,255,255,0.03) 1px,
+        transparent 1px,
+        transparent 3px
+    );
+
+    animation: scanFlicker 0.15s infinite;
+
+    z-index: 2;
+}
+
+@keyframes scanFlicker {
+    0% { opacity: 0.9; }
+    50% { opacity: 1; }
+    100% { opacity: 0.95; }
+}
 /* ================= HEADER ================= */
 
 .terminal-header {
@@ -85,17 +98,18 @@ body {
 /* ================= START SCREEN ================= */
 
 #start-screen {
-    position: absolute; /* 👈 IMPORTANT CHANGE */
+    position: absolute;
     width: 100%;
     height: 100%;
 
-    background-color: black;
+    background-color: rgba(0,0,0,0.95);
+        font-family: 'Press Start 2P', monospace;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    z-index: 999;
+    z-index: 5; /* ABOVE scanlines */
 }
 
 .start-content {
@@ -138,6 +152,14 @@ body {
 
 /* ================= CONTENT ================= */
 
+#main-system {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+}
+
 .system {
     display: flex;
     height: 100%;
@@ -170,6 +192,43 @@ body {
 
     font-family: 'Pixelify Sans', sans-serif;
     overflow-y: auto;
+        color: #FCFBD8;
+}
+
+.file-viewer img {
+    filter: contrast(1.1) brightness(0.95);
+}
+
+
+#loading-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-color: #1C1C1C;
+    color: #FCFBD8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity 0.5s ease;
+
+    z-index: 6;
+}
+
+#loading-screen.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#loading-text {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 14px;
+    animation: blink 1s infinite;
 }
 
 /* ================= SCROLLBAR ================= */
