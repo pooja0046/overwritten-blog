@@ -41,7 +41,7 @@ if (file === "t1") {
         <p>> I will use a similar system-based structure where users uncover
         information gradually, reinforcing themes of control and restricted access.</p>
 
-        <br>
+        <hr>
 
         <p>> ADDITIONAL VISUAL RESEARCH:</p>
 
@@ -68,6 +68,9 @@ if (file === "t2") {
 
         <p>> STARTING POINT:</p>
         <p>> Increasing use of AI within digital creative workflows, particularly in small-scale game development.</p>
+
+        
+        <hr>
 
         <p>> CASE STUDY:</p>
         <p>> Expedition 33 – Sandfall Interactive</p>
@@ -119,9 +122,10 @@ if (file === "t3") {
 
         <hr>
 
-        <img src="assets/images/task3map.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
-
         <p>> MAP RESPONSE: ORDNANCE SURVEY MAP</p>
+
+                <img src="assets/images/task3map.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
+
 
         <p>> This map represents a geographic area using precise measurements, symbols, and standardized design systems.</p>
 
