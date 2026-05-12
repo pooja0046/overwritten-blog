@@ -452,31 +452,46 @@ if (file === "t10") {
 
         <h3>> PEER FEEDBACK 01</h3>
 
-        <p>> COMMENT:</p>
-        <p>> [Add peer comment here]</p>
+        <p>> COMMENT: Controls section needed.</p>
+        <p>> "I like the fact you have an interaction to continue the dialogue but I would have not 
+        known how to do it if you wasn't here since I don't play video games."</p>
 
-        <p>> RESPONSE:</p>
-        <p>> [What you changed or considered]</p>
+        <p>> RESPONSE: Added Control Pannel.</p>
+        <p>> I appreciated that not everyone is familiar with video games, especially on PC, so adding
+        somewhere where controls can be seen was essential and a good point. I added a controls button
+        to the start screen so that users can see it before entering the experience and it is usually
+        where most video games place it.</p>
 
         <hr>
 
         <h3>> PEER FEEDBACK 02</h3>
 
-        <p>> COMMENT:</p>
-        <p>> [Add peer comment here]</p>
+        <p>> COMMENT: Interaction for dialogue. </p>
+        <p>> "I like the dialgoue sections but the sections feel longer than they should because
+        you have to wait till the dialogue is done on its own before it moves on to the next. It ruins
+        the experience a little as you can start to feel impatience."</p>
 
-        <p>> RESPONSE:</p>
-        <p>> [Your design response]</p>
+        <p>> RESPONSE: Added continue input for dialogue.</p>
+        <p>> I had to agree with this comment, when having to wait for dialoue to finish was a bit
+        frustrating when I was making the game as, like the user said, it made the experience longer
+        than it needed to be. So, to fix this I added 2 inputs the user can do to move onto the next
+        piece of dialogue; when the line of dialogue finishes, an arrow pops up promting the user to
+        make an input, using space bar or right arrow key, to move on.</p>
 
         <hr>
 
         <h3>> PEER FEEDBACK 03</h3>
 
-        <p>> COMMENT:</p>
-        <p>> [Add peer comment here]</p>
+        <p>> COMMENT: Adding physical timer.</p>
+        <p>>"The 3 endings are cool but I think it could be better if you added a timer that you can
+        actually see because the overwritten ending is a good addition if the player does not choose
+        either endings on the screen but, the user might be confused why they got a different ending 
+        beause they don't know that the decision is timed."</p>
 
-        <p>> RESPONSE:</p>
-        <p>> [Your design response]</p>
+        <p>> RESPONSE: Added timer for final choices.</p>
+        <p>> The final endings trigger dependent on the users choice, choosing one of the buttons but 
+        I wanted a 3rd ending if the user does not choose in time so I put a timer in but instead of
+        it just working in the background I added a small countdown to make the decision more suspensful. </p>
 
         <hr>
 
