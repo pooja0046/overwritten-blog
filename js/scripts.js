@@ -110,7 +110,7 @@ if (file === "t3") {
     viewer.innerHTML = `
         <h2>> TASK 03: GEOEPISTEMOLOGY</h2>
         <img src="assets/images/task3.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
-        <p class="caption">Kaur, P. (2026) <i>Notes for extract from After the Map</i> [Notes]. Personal collection.</p>
+        <p class="caption">Kaur, P. (2026) <i>Notes for extract from After the Map</i> [Photograph]. Personal collection.</p>
 
         <p>> SOURCE TEXT: "AFTER THE MAP" – WILLIAM RANKIN </p>
 
@@ -157,7 +157,7 @@ if (file === "t4") {
         <h2>> TASK 04: ARE ROBOTS RACIST?</h2>
 
         <img src="assets/images/task4.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
-        <p class="caption">Kaur, P. (2026) <i>Notes for extract from Race After Technology: Abolitionist Tools for the New Jim Code</i> [Notes]. Personal collection.</p>
+        <p class="caption">Kaur, P. (2026) <i>Notes for extract from Race After Technology: Abolitionist Tools for the New Jim Code</i> [Photograph]. Personal collection.</p>
 
         <p>> SOURCE TEXT: RUHA BENJAMIN </p>
 
@@ -316,7 +316,7 @@ if (file === "t7") {
         emotional ambiguity without using full voice acting.</p>
 
         <p>> SOUND EFFECTS:</p>
-        <p>> Additional audio elements include stock,
+        <p>> Additional audio elements include stock
         system loading sounds, and environmental audio such as
         footsteps. These contribute to a cohesive “digital system”
         aesthetic.</p>
@@ -395,18 +395,22 @@ if (file === "t8") {
         <h3>> ANTAGONIST DEVELOPMENT</h3>
 
         <div class="image-row">
-            <img src="assets/images/antagonist1.jpg" style="border:3px solid #C464AF; margin-top:10px;">
-            <img src="assets/images/antagonist2.jpg" style="border:3px solid #C464AF; margin-top:10px;">
+            <img src="assets/images/antag1.png" style="border:3px solid #C464AF; margin-top:10px;">
+            <img src="assets/images/antag2.png" style="border:3px solid #C464AF; margin-top:10px;">
         </div>
 
              <p class="caption"> Kaur, P. (2026) <i>Overwritten Antagonist Sketches</i> [Digital sketches]. Personal collection.</p>
 
-        <p>> The antagonist is conceptualised as a system entity rather than a
-        physical character. Early designs explore abstract, fragmented forms
-        to represent AI presence and loss of identity.</p>
+        <p>> The 1st antagonist was conceptualised as a system entity rather than a
+        physical character. I wanted to avoid a traditional villain and instead reinforcing
+        the idea of an invisible controlling system. However, I was not happy with the design
+        not matter how many tweaks I made and it didn't make sense for when the player is 
+        confronted by it as it can be a bunch of monitors with legs.</p>
 
-        <p>> This approach avoids a traditional villain and instead reinforces
-        the idea of an invisible controlling system.</p>
+        <p>> The second design takes the form of a "human" but not by it wearing a uniform/ suit 
+        but it is quite damaged and wires are exposed. The head is a monitor with simple eyes, so it is
+        creepy but approachable. Having the antagonist take the form of a "human" was better suited for this
+        project as the AI is seen as an "employee" rather than a full villian.</p>
 
         <p class="corrupt">> ENTITY STATUS: UNDEFINED / EVOLVING</p>
     `;
@@ -482,21 +486,8 @@ if (file === "t10") {
 
         <hr>
 
+
         <h3>> PEER FEEDBACK 01</h3>
-
-        <p>> COMMENT: Controls section needed.</p>
-        <p>> "I like the fact you have an interaction to continue the dialogue but I would have not 
-        known how to do it if you wasn't here since I don't play video games."</p>
-
-        <p>> RESPONSE: Added Control Pannel.</p>
-        <p>> I appreciated that not everyone is familiar with video games, especially on PC, so adding
-        somewhere where controls can be seen was essential and a good point. I added a controls button
-        to the start screen so that users can see it before entering the experience and it is usually
-        where most video games place it.</p>
-
-        <hr>
-
-        <h3>> PEER FEEDBACK 02</h3>
 
         <p>> COMMENT: Interaction for dialogue. </p>
         <p>> "I like the dialgoue sections but the sections feel longer than they should because
@@ -504,11 +495,25 @@ if (file === "t10") {
         the experience a little as you can start to feel impatience."</p>
 
         <p>> RESPONSE: Added continue input for dialogue.</p>
-        <p>> I had to agree with this comment, when having to wait for dialoue to finish was a bit
+        <p>> I had to agree with this comment, when having to wait for dialogue to finish was a bit
         frustrating when I was making the game as, like the user said, it made the experience longer
         than it needed to be. So, to fix this I added 2 inputs the user can do to move onto the next
         piece of dialogue; when the line of dialogue finishes, an arrow pops up promting the user to
         make an input, using space bar or right arrow key, to move on.</p>
+
+        <hr>
+
+        <h3>> PEER FEEDBACK 02</h3>
+
+        <p>> COMMENT: Controls section needed.</p>
+        <p>> "The interactions to continue the dialogue is great but I would have not 
+        known how to do it if you wasn't here since I don't play video games."</p>
+
+        <p>> RESPONSE: Added Control Pannel.</p>
+        <p>> I appreciated that not everyone is familiar with video games, especially on PC, so adding
+        somewhere where controls can be seen was essential and a good point. I added a controls button
+        to the start screen so that users can see it before entering the experience and it is usually
+        where most video games place it.</p>
 
         <hr>
 
@@ -574,10 +579,6 @@ if (file === "t11") {
         <a href="https://pooja0046.github.io/overwritten-game/" target="_blank" class="launch-button">
             ▶ LAUNCH OVERWRITTEN
         </a>
-
-        <p>> The project demonstrates how interactive systems can be used
-        as a form of visual essay, combining narrative, design, and
-        technology to communicate critical ideas.</p>
 
         <p class="corrupt">> USER ROLE: UNDEFINED</p>
     `;
