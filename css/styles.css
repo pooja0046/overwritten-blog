@@ -23,8 +23,11 @@ body {
     background-color: #1C1C1C;
     border: 4px solid #5C4A3D;
 
-    display: flex;
-    flex-direction: column;
+
+
+    animation: scanFlicker 0.30s infinite;
+
+    z-index: 99;
 }
 
 
@@ -53,33 +56,7 @@ body {
 }
 
 
-/* ================= SCANLINES (LIKE GAME) ================= */
 
-.scanlines {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-    pointer-events: none;
-
-    background: repeating-linear-gradient(
-        0deg,
-        rgba(255,255,255,0.03),
-        rgba(255,255,255,0.03) 1px,
-        transparent 1px,
-        transparent 3px
-    );
-
-    animation: scanFlicker 0.15s infinite;
-
-    z-index: 0;
-}
-
-@keyframes scanFlicker {
-    0% { opacity: 0.9; }
-    50% { opacity: 1; }
-    100% { opacity: 0.95; }
-}
 /* ================= HEADER ================= */
 
 .terminal-header {

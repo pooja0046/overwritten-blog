@@ -15,6 +15,10 @@ if (file === "t1") {
         <!-- DO NOT TRACK IMAGE -->
         <img src="assets/images/donottrack.png" 
              style="width:100%; border:3px solid #C464AF; margin:10px 0;">
+        <p class="caption">Gaylor, B. (2015) <i>Do Not Track</i> [Interactive documentary]. National Film Board of Canada. Available at:
+        https://donottrack-doc.com/ (Accessed: 17 March 2026).</p>
+
+            
 
         <p>> An interactive documentary exploring how users are tracked online 
         through data collection systems.</p>
@@ -49,6 +53,8 @@ if (file === "t1") {
         <img src="assets/images/moodboard.png" 
              style="width:100%; border:3px solid #C464AF; margin-top:10px;">
 
+     <p class="caption">Kaur, P. (2026) <i>Overwritten Moodboard</i> [Digital moodboard]. Personal collection.</p>
+
         <p>> Game interfaces and horror systems used as inspiration for tone,
         interaction, and visual style.</p>
     `;
@@ -78,6 +84,8 @@ if (file === "t2") {
                 <!-- E33 IMAGE -->
         <img src="assets/images/e33.png" 
              style="width:100%; border:3px solid #C464AF; margin-top:10px;">
+        
+             <p class="caption">Sandfall Interactive (2025) <i>Clair Obscur: Expedition 33</i> [Video game]. Montpellier: Sandfall Interactive.</p>
 
 
         <p>> Developers initially used AI tools and online tutorials to produce assets.
@@ -102,8 +110,9 @@ if (file === "t3") {
     viewer.innerHTML = `
         <h2>> TASK 03: GEOEPISTEMOLOGY</h2>
         <img src="assets/images/task3.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
+        <p class="caption">Kaur, P. (2026) <i>Notes for extract from After the Map</i> [Notes]. Personal collection.</p>
 
-        <p>> SOURCE TEXT: "AFTER THE MAP" – WILLIAM RANKIN</p>
+        <p>> SOURCE TEXT: "AFTER THE MAP" – WILLIAM RANKIN </p>
 
         <p>> KEY IDEA:</p>
         <p>> Geo-epistemology explores how knowledge about the world is produced through systems like maps, rather than simply observed.</p>
@@ -113,6 +122,8 @@ if (file === "t3") {
 
         <p>> QUOTE:</p>
         <p class="corrupt">> "There is a difference between knowing what something is and how something is what it is."</p>
+        <p class="caption">Rankin, W. (2016), After the Map: Cartography, Navigation, and the Transformation
+of Territory in the Twentieth Century. Chicago: University of Chicago Press, p. 2.</p>
 
         <p>> INTERPRETATION:</p>
         <p>> This highlights that knowledge is constructed. Maps do not present pure truth, but a version shaped by methods, tools, and perspective.</p>
@@ -125,6 +136,7 @@ if (file === "t3") {
         <p>> MAP RESPONSE: ORDNANCE SURVEY MAP</p>
 
                 <img src="assets/images/task3map.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
+        <p class="caption">Kaur, P. (2026) <i>Ordnance Survey map drawing photograph taken at Manchester Metropolitan University.</i> [Photograph]. Personal collection.</p>
 
 
         <p>> This map represents a geographic area using precise measurements, symbols, and standardized design systems.</p>
@@ -145,11 +157,14 @@ if (file === "t4") {
         <h2>> TASK 04: ARE ROBOTS RACIST?</h2>
 
         <img src="assets/images/task4.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
+        <p class="caption">Kaur, P. (2026) <i>Notes for extract from Race After Technology: Abolitionist Tools for the New Jim Code</i> [Notes]. Personal collection.</p>
 
-        <p>> SOURCE TEXT: RUHA BENJAMIN</p>
+        <p>> SOURCE TEXT: RUHA BENJAMIN </p>
 
         <p>> SUMMARY:</p>
         <p>> The text explains that AI systems are built using human-generated data, meaning they inherit human biases. Technology cannot distinguish between what is stereotypical and what is fair, leading to the reproduction of inequality.</p>
+        <p class="caption">Benjamin, R. (2019) Race After Technology: Abolitionist Tools for the New Jim Code.
+Cambridge, UK: Polity, pp. 63–64.</p>
 
         <p>> KEY IDEA:</p>
         <p>> Systems project an <span class="corrupt">illusion of objectivity</span>, making them appear neutral while hiding the biases embedded within them.</p>
@@ -169,6 +184,7 @@ if (file === "t4") {
 
         <p>> USER PERSONA: STEEVE MORGAN</p>
                 <img src="assets/images/persona.png" style="width:300px; height:300px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
+        <p class="caption"> Kaur, P. (2026) <i>User Persona Development</i> [Digital persona design]. Personal collection.</p>
 
         <p>> A 22-year-old freelance creative and final-year student working across digital media and game design.</p>
 
@@ -196,13 +212,13 @@ if (file === "t5") {
             <img src="assets/images/map2.jpg" alt="Map Museum Photo 2" style="width:300px; height:400px; margin-right:10px; margin-bottom:15px; border:3px solid #C464AF;">
         </div>
 
-        <p class="caption">Primary research images from University of Manchester Map Collection</p>
+        <p class="caption">Kaur, P. (2026) <i>Photographs from the University of Manchester Map Collection</i> [Photographs]. Personal collection.</p>
 
         <h3>> KATE MCLEAN — SMELLS OF AULD REEKIE (2011)</h3>
 
                 <img src="assets/images/smellmap.jpg" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;"></img>
                 
-        <p class="caption">Primary research images from University of Manchester Map Collection</p>
+        <p class="caption">Kaur, P. (2026) <i>Photograph of Smells of Auld Reekie from the University of Manchester Map Collection</i> [Photographs]. Personal collection.</p>
 
         <p>> Map Collection Ref: C17:70 Manchester (14)</p>
     
@@ -220,6 +236,7 @@ if (file === "t5") {
         <h3>> W.E.B. DU BOIS — DATA VISUALISATION</h3>
 
         <img src="assets/images/duboismap.png" class="single-image" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;" alt="Du Bois Data Portrait">
+         <p class="caption">Du Bois — Data Visualisation, W. E. B. (n.d.). City & Rural Population 1890 [Map]. Goverment Collections. https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?c=100&sp=6&st=list</p>
 
         <p>> This visualisation represents the distribution of Black populations between 
         rural and urban areas in 1890.</p>
@@ -246,6 +263,8 @@ if (file === "t6") {
             <img src="assets/images/week4planning.png" style="margin-bottom:15px; border:3px solid #C464AF;">
             <img src="assets/images/week8planning.png" style="margin-bottom:15px; margin-right:10px; border:3px solid #C464AF;">
         </div>
+
+          <p class="caption">Kaur, P. (2026) <i>Screenshots of Trello board.</i> [Screenshots]. Personal collection.</p>
 
         <p>> PLANNING TOOL:</p>
         <p>> A Kanban-style workflow was used to organise production tasks
@@ -288,13 +307,16 @@ if (file === "t7") {
         <p>> DIALOGUE DESIGN:</p>
         <img src="assets/images/undertale.png" 
              style="width:100%; height:400px; border:3px solid #C464AF; margin-top:10px;">
+
+              <p class="caption">Fox, T. (2015) <i>Undertale</i> [Video game]. 8-4.</p>
+
         <p>> Placeholder dialogue sounds were inspired by retro RPG
         systems, referencing audio styles from Undertale (2015).
         These sounds create a sense of artificial speech and
         emotional ambiguity without using full voice acting.</p>
 
         <p>> SOUND EFFECTS:</p>
-        <p>> Additional audio elements include stock glitch effects,
+        <p>> Additional audio elements include stock,
         system loading sounds, and environmental audio such as
         footsteps. These contribute to a cohesive “digital system”
         aesthetic.</p>
@@ -336,6 +358,8 @@ if (file === "t8") {
         <img src="assets/images/storyboard.png" 
              style="width:100%; border:3px solid #C464AF; margin-top:10px;">
 
+        <p class="caption">Kaur, P. (2026) <i>Overwritten Storyboard</i> [Digital storyboard]. Personal collection.</p>
+
         <p>> The storyboard maps out key narrative beats and user interaction.
         It establishes pacing, choice moments, and transitions between scenes,
         ensuring the experience feels structured despite its fragmented tone.</p>
@@ -346,6 +370,7 @@ if (file === "t8") {
 
         <img src="assets/images/styleguide.png" 
              style="width:100%; height:400px; border:3px solid #C464AF; margin-top:10px;">
+            <p class="caption">Kaur, P. (2026) <i>Overwritten Style Guide</i> [Digital style guide]. Personal collection.</p>
 
         <p>> The style guide defines typography and colour palette.
         A limited palette and pixel-based fonts reinforce the retro system
@@ -359,6 +384,7 @@ if (file === "t8") {
             <img src="assets/images/sketch1.png" style="border:3px solid #C464AF; margin-top:10px;">
             <img src="assets/images/sketch2.png" style="border:3px solid #C464AF; margin-top:10px;">
         </div>
+            <p class="caption"> Kaur, P. (2026) <i>Overwritten Environment Sketches</i> [Digital sketches]. Personal collection.</p>
 
         <p>> Initial sketches explore composition and atmosphere for key scenes.
         These drawings focus on layout and lighting rather than detail,
@@ -372,6 +398,8 @@ if (file === "t8") {
             <img src="assets/images/antagonist1.jpg" style="border:3px solid #C464AF; margin-top:10px;">
             <img src="assets/images/antagonist2.jpg" style="border:3px solid #C464AF; margin-top:10px;">
         </div>
+
+             <p class="caption"> Kaur, P. (2026) <i>Overwritten Antagonist Sketches</i> [Digital sketches]. Personal collection.</p>
 
         <p>> The antagonist is conceptualised as a system entity rather than a
         physical character. Early designs explore abstract, fragmented forms
@@ -404,6 +432,8 @@ if (file === "t9") {
             <img src="assets/images/openingscene.png" style="border:3px solid #C464AF; margin-top:10px;">
             <img src="assets/images/scene3.png" style="border:3px solid #C464AF; margin-top:10px;">
         </div>
+         <p class="caption"> Kaur, P. (2026) <i>Overwritten Developed Sketches using Pixilart</i> [Digital sketches]. Personal collection.</p>
+
 
         <p>> Visual environments were first sketched and then developed into
         pixel-based scenes using Pixilart. This process ensured consistency
@@ -417,6 +447,8 @@ if (file === "t9") {
             <img src="assets/images/code1.png" style="border:3px solid #C464AF; margin-top:10px;">
             <img src="assets/images/code2.png" style="border:3px solid #C464AF; margin-top:10px;">
         </div>
+
+                 <p class="caption"> Kaur, P. (2026) <i>Screenshots of Code in Visual Studio Code</i> [Screenshots]. Personal collection.</p>
 
         <p>> JavaScript was used to implement interaction systems including
         clickable hotspots, branching dialogue, and timed choices.</p>
@@ -514,7 +546,7 @@ if (file === "t10") {
 //TASK 11
 if (file === "t11") {
     viewer.innerHTML = `
-        <h2>> FINAL DELIVERABLE</h2>
+        <h2>> FINAL PRODUCT</h2>
 
         <p class="corrupt">> SYSTEM COMPLETE</p>
 
@@ -550,8 +582,126 @@ if (file === "t11") {
         <p class="corrupt">> USER ROLE: UNDEFINED</p>
     `;
 }
-}
 
+
+
+
+//TASK 12
+
+if (file === "t12") {
+    viewer.innerHTML = `
+        <h2>> BIBLIOGRAPHY + REFERENCES</h2>
+
+        <p class="corrupt">> SOURCES ARCHIVED</p>
+
+        <hr>
+
+        <h3>> BOOKS + THEORY</h3>
+
+        <p>> Benjamin, R. (2019) <i>Race After Technology: Abolitionist Tools for the New Jim Code</i>. Cambridge: Polity Press.</p>
+
+        <p>> Rankin, W. (2016) <i>After the Map: Cartography, Navigation, and the Transformation of Territory</i>. Chicago: University of Chicago Press.</p>
+
+        <hr>
+
+        <h3>> CASE STUDIES + MEDIA</h3>
+
+        <p>> Gaylor, B. (2015) <i>Do Not Track</i> [Interactive documentary]. National Film Board of Canada. Available at:
+        https://donottrack-doc.com/ (Accessed: 17 March 2026).</p>
+
+        <p>> Sandfall Interactive (2025) <i>Clair Obscur: Expedition 33</i> [Video game]. Montpellier: Sandfall Interactive.</p>
+
+        <p>> Fox, T. (2015) <i>Undertale</i> [Video game]. 8-4.</p>
+
+        <hr>
+
+        <h3>> AUDIO SOURCES</h3>
+
+        <p>> YouTube (n.d.) <i>Undertale Sound Effects Playlist</i> [Audio]. Available at:
+        https://youtube.com/playlist?list=PL8tAv4-ty9A48C_RROEbx0r3KtxMq4U8b
+        (Accessed: 22 April 2026).</p>
+
+        <p>> YouTube (n.d.) <i>Footsteps Sound Effect</i> [Audio]. Available at:
+        https://youtu.be/mPgGg4MJKKc
+        (Accessed: 22 April 2026).</p>
+
+        <p>> YouTube (n.d.) <i>Loading Sound Effect</i> [Audio]. Available at:
+        https://youtu.be/DP-_QNCx51s
+        (Accessed: 22 April 2026).</p>
+
+        <p>> YouTube (n.d.) <i>Signal Lost Sound Effect</i> [Audio]. Available at:
+        https://youtu.be/gDIQBsG-4oU
+        (Accessed: 22 April 2026).</p>
+
+        <hr>
+
+        <h3>> PRIMARY RESEARCH + SELF-CREATED MATERIAL</h3>
+
+        <p>> Kaur, P. (2026) <i>Overwritten Moodboard</i> [Digital moodboard]. Personal collection.</p>
+
+        <p>> Kaur, P. (2026) <i>Overwritten Style Guide</i> [Digital style guide]. Personal collection.</p>
+
+        <p>> Kaur, P. (2026) <i>Overwritten Environment Sketches</i> [Digital sketches]. Personal collection.</p>
+
+        <p>> Kaur, P. (2026) <i>Overwritten Storyboard</i> [Digital storyboard]. Personal collection.</p>
+
+        <p>> Kaur, P. (2026) <i>User Persona Development</i> [Digital persona design]. Personal collection.</p>
+
+        <p>> Kaur, P. (2026) <i>Photographs from the University of Manchester Map Collection</i> [Photographs]. Personal collection.</p>
+
+        <p>> Kaur, P. (2026) <i>Ordnance Survey map photograph taken at the University of Manchester Map Collection</i> [Photograph]. Personal collection.</p>
+
+        <hr>
+
+        <h3>> VISUAL + HORROR INSPIRATION</h3>
+
+        <p>> Kister, A. (2021) <i>The Mandela Catalogue</i> [YouTube horror series]. Available at:
+        https://youtu.be/C8d12w6pMos
+        (Accessed: 27 February 2026).</p>
+
+        <p>> Cloak and Dagger Games (2022) <i>The Excavation of Hob’s Barrow</i> [Video game]. Cloak and Dagger Games.</p>
+
+        <p>> Powerhoof (2023) <i>The Drifter</i> [Video game]. Powerhoof.</p>
+
+        <p>> Snoring Dog Games (2023) <i>The Flayed Man</i> [Video game]. Snoring Dog Games.</p>
+
+        <p>> Spacefarer Games (2025) <i>The Corruption Within</i> [Video game]. Spacefarer Games.</p>
+
+        <hr>
+
+        <h3>> SOFTWARE + TOOLS</h3>
+
+        <p>> Figma (2025) <i>Figma Design Platform</i> [Software]. Available at:
+        https://www.figma.com/
+        (Accessed: 14 May 2026).</p>
+
+        <p>> Pixilart (2025) <i>Pixilart Pixel Art Platform</i> [Software]. Available at:
+        https://www.pixilart.com/
+        (Accessed: 14 May 2026).</p>
+
+        <p>> Microsoft (2025) <i>Visual Studio Code</i> [Software]. Available at:
+        https://code.visualstudio.com/
+        (Accessed: 14 May 2026).</p>
+
+        <p>> OpenAI (2025) <i>ChatGPT</i> [AI software]. Available at:
+        https://chat.openai.com/
+        (Accessed: 14 May 2026).</p>
+
+        <hr>
+
+        <h3>> AI DECLARATION</h3>
+
+        <p>> AI tools were used during ideation and concept development stages
+        of this project, particularly for visual experimentation and discussion
+        of themes relating to AI and creative labour.</p>
+
+        <p>> All final implementation, coding, narrative structure, interaction
+        systems, and project design decisions were completed independently.</p>
+
+        <p class="corrupt">> ARCHIVE COMPLETE</p>
+    `;
+}
+}
 
 
 
