@@ -236,7 +236,7 @@ if (file === "t5") {
         <h3>> W.E.B. DU BOIS — DATA VISUALISATION</h3>
 
         <img src="assets/images/duboismap.png" class="single-image" style="width:300px; height:400px; margin-left:130px; margin-bottom:15px; border:3px solid #C464AF;" alt="Du Bois Data Portrait">
-         <p class="caption">Du Bois — Data Visualisation, W. E. B. (n.d.). City & Rural Population 1890 [Map]. Goverment Collections. https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?c=100&sp=6&st=list</p>
+         <p class="caption">Du Bois — Data Visualisation, W.E.B. (no date) “City & Rural Population 1890.” Goverment Collections. Available at: https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?c=100&sp=6&st=list.</p>
 
         <p>> This visualisation represents the distribution of Black populations between 
         rural and urban areas in 1890.</p>
